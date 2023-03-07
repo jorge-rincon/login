@@ -24,7 +24,7 @@ export function Home(props) {
           </h1>
         </div>
         <h2>
-            { props.name? `Bienvenido - ${ props.name } AL HOME`: "" }
+            { props.name? `Bienvenido - ${ props.name } Estamos trabajando para mejorar esta vista`: "" }
         </h2>
         <div>
         <button onClick={ salir } >Salir</button>
